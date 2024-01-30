@@ -1,0 +1,109 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente más moderna */
+}
+header {
+    margin-bottom: 2rem;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#inicio h1 {
+    font-size: 2.5rem;
+}
+#sobre-mi {
+    background-color: #f8f9fa; /* Fondo claro para la sección */
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra sutil */
+}
+
+#sobre-mi p {
+    text-align: justify;
+    line-height: 1.6; /* Espaciado de línea para mejorar la legibilidad */
+}
+
+#Mi-trabajo {
+    background-color: #f8f9fa; /* Fondo claro para la sección */
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra sutil */
+}
+
+#proyectos{
+    background-color: #f8f9fa; /* Fondo claro para la sección */
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra sutil */
+}
+
+.card {
+    transition: transform 0.3s ease-in-out; /* Animación al pasar el mouse */
+}
+.card:hover {
+    transform: translateY(-5px); /* Efecto de levitación al pasar el mouse */
+}
+
+.card-img-top {
+    height: 200px; /* Altura fija para imágenes */
+    object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse */
+}
+
+.card-title {
+    color: #007bff; /* Color para resaltar los títulos de las tarjetas */
+}
+
+.card-footer {
+    background: none;
+}
+section {
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.img-habilidad {
+    max-width: 100px; /* Ajusta esto según tus preferencias */
+    height: auto;
+    margin-bottom: 1rem;
+}
+.habilidades {
+    background-color: #e9ecef;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.habilidades .row {
+    text-align: center;
+}
+
+.habilidades p {
+    margin: 0;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.btn-primary{
+    position: absolute;
+    top: 50%; /* Centrado vertical */
+    left: 50%; /* Centrado horizontal */
+    transform: translate(-50%, -50%); /* Ajuste fino para centrar exactamente */
+    z-index: 10; /* Asegura que el botón esté sobre la imagen */
+    background-color: #007bff;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Sombra para el botón */
+}
+.btn-primary:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+}
